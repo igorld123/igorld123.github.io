@@ -1,0 +1,129 @@
+#subir{
+    margin-bottom: 23px;
+}
+
+#nomes{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+#cor{
+    color: white;
+    font-size: 16px;
+}
+
+#altura2{
+    height: 10px;
+}
+
+#meio2{
+    margin-left: 400px;
+}
+
+.meio{
+    margin-left: 28px;
+}
+
+#espaco{
+    margin-left: px;
+}
+
+#altura{
+    width: 500px;
+}
+
+#gosta{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.col-sm-4{
+    margin-right:px;
+}
+
+
+
+
+#esticar4{
+    height: 443px;  
+    margin-top: 50px;
+}
+
+#esticar5{
+    height: 440px;
+    margin-top: 50px;
+}
+
+#esticar6{
+    height: 440px;
+    margin-top: 50px;
+}
+
+
+
+#separar1{
+    margin-top: 150px;
+    height: 340px;
+}
+
+#esticar1{
+    height: 443px;  
+}
+
+#esticar3{
+    height: 440px;
+}
+
+
+#separar1{
+    margin-top: 150px;
+    height: 340px;
+}
+
+
+
+
+
+
+
+#separar2{
+    margin-top: 150px;
+    height: 360px;
+}
+
+#separar3{
+    margin-top: 150px;
+}
+
+#rodape{
+    background-color: black;
+    height: 160px;
+    margin-top: 290px;
+}
+
+#cor5{
+    background-color: gray;
+    width: 42%;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10%;
+    transition: transform .4s;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+#cor5:hover{
+    transform: scale(1.1);
+    background-color: rgb(61, 61, 61);
+}
+
+#nomes{
+    font-size: 19px;
+    margin-right: 12%;
+}
+
+.rodape{
+    margin-top: 70px;
+}

@@ -1,0 +1,48 @@
+/* topo */
+
+#div1{
+    
+}
+
+#containercanto{
+    padding-left: 20%;
+    margin-top: 35px;
+}
+
+#container{
+    padding-left: 15%;
+    margin-top: 35px;
+}
+
+#containercanto2{
+    padding-left: 7%;
+    margin-top: 35px;
+}
+
+/* Fim topo */
+
+
+/* meio */
+
+#containercanto1{
+    margin-left: 20%;
+    margin-top: 35px;
+}
+
+#container2{
+    margin-left: 15%;
+    margin-top: 35px;
+}
+
+#containercanto3{
+    margin-left: 5%;
+    margin-top: 35px;
+}
+
+/* Fim meio */
+
+
+
+.rodape{
+    margin-top: 190px;
+}
