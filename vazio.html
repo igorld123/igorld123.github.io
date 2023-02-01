@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sobrenos.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#8B0000;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a href="#" id="subir" > <img src=img/miplogo4.png width="35%"/> </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul id="nomes" class="nav navbar-nav">
+        <li id="meio2"> <a id="cor" href="index.html">Ínicio</a></li>
+        <li class="meio"> <a id="cor" href="#">Sobre Nós</a></li>
+        <li class="meio"> <a id="cor" href="#">Produtos</a></li>
+        <li class="meio"> <a id="cor" href="cadastro.html">Formulario</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li id="nomes"><a href="#" id="cor"> </span> Cadastre-se </a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li id="nomes"><a href="#" id="cor"> </span> Login </a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+  
+      </div>
+      <div class="col-sm">
+        <h1>Um Pouco Sobre Nós</h1>
+      </div>
+      <div class="col-sm">
+  
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+      <div class="col-sm">
+        <img src="">
+      </div>
+      
+      <div class="col-sm">
+        <img src="">
+      </div>
+
+      <div class="col-sm">
+        <img src="">
+      </div>
+
+    </div>
+</div>
+
+
+<section class="">
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: #000000;">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: CTA -->
+        <section class="">
+          <p class="d-flex justify-content-center align-items-center">
+            <span class="me-3">Registre-se de Graça</span>
+            <button type="button" class="btn btn-outline-light btn-rounded">
+              Registre-se
+            </button>
+          </p>
+        </section>
+        <!-- Section: CTA -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">M.I.P IMPORTS</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</section>
+</body>
+</html>
